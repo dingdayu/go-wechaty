@@ -1,7 +1,7 @@
 package file_box
 
 import (
-  helper_functions "github.com/wechaty/go-wechaty/wechaty-puppet/helper-functions"
+    helper_functions "github.com/wechaty/go-wechaty/wechaty-puppet/helper"
   "io/ioutil"
   "net/http"
 )
@@ -11,7 +11,7 @@ type fileBoxUrl struct {
   headers   http.Header
 }
 
-func NewFileBoxUrl(remoteUrl string, headers http.Header) *fileBoxUrl {
+func newFileBoxUrl(remoteUrl string, headers http.Header) *fileBoxUrl {
   return &fileBoxUrl{remoteUrl: remoteUrl, headers: headers}
 }
 
