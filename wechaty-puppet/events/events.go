@@ -8,7 +8,7 @@ import (
 )
 
 const (
-  // DefaultMaxListeners is the number of max listeners per event
+  // DefaultMaxListeners is the number of max listeners per event t
   // default EventEmitters will print a warning if more than x listeners are
   // added to it. This is a useful default which helps finding memory leaks.
   // Defaults to 0, which means unlimited
