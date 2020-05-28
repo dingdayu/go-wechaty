@@ -339,3 +339,7 @@ func (w *Wechaty) Friendship() _interface.IFriendshipFactory {
 func (w *Wechaty) Image() _interface.IImageFactory {
 	return w.image
 }
+
+func (w *Wechaty) test() {
+
+}
