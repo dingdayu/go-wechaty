@@ -55,7 +55,7 @@ func onMessage(message *user.Message) {
 		return
 	}
 
-	// 1. reply 'dong'
+	// 1. reply 'dong'.
 	_, err := message.Say("dong")
 	if err != nil {
 		log.Println(err)
