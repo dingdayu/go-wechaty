@@ -28,10 +28,10 @@ checks:
       threshold: 12
   similar-code:         # 相似代码检查
     config:
-      threshold: 12
+      threshold: 50
   identical-code:       # 相同代码检查
     config:
-      threshold: 6
+      threshold: 25
 
 plugins:
   gofmt:
